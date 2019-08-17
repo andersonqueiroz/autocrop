@@ -321,6 +321,12 @@ def main(
             input_count, output_count, reject_count
         )
     )
+    
+    return {
+        "input_count": input_count, 
+        "output_count": output_count,
+        "reject_count": reject_count
+    }
 
 
 def input_path(p):
